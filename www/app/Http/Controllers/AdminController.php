@@ -27,10 +27,10 @@ class AdminController extends Controller
         ]);
     }
     public function liste()
-    { 
+    {
         $l=Laptop::fromQuery("select *from laptop");
         $k=json_encode($l);
-        
+
         return $k;
     }
     public function list(Request $req){

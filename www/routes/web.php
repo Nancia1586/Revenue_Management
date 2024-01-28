@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -21,4 +22,4 @@ Route::get('/', function () {
     return redirect('/admin/login');
 });
 
-Route::auto('/pointvente',PointVenteController::class);
+Route::auto('/admin',AdminController::class);

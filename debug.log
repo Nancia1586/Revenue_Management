@@ -9534,3 +9534,488 @@ cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 - 15:59:05.703 DEBUG: RemoveBrowserWindow(): hwnd = 67990
 - 15:59:05.703 DEBUG: GetBrowserWindow(): not found, hwnd = 67990
 - 15:59:05.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:31:31.063 INFO: --------------------------------------------------------
+- 16:31:31.063 INFO: Started application
+- 16:31:31.078 INFO: Logging to: E:\Perso\Revenue_Management\debug.log
+- 16:31:31.078 INFO: Log level = DEBUG4
+- 16:31:31.078 INFO: Starting Mongoose 3.9c web server
+- 16:31:31.078 INFO: WWW directory: E:\Perso\Revenue_Management\www\public
+- 16:31:31.078 INFO: Index files: index.php
+- 16:31:31.078 INFO: CGI interpreter: E:\Perso\Revenue_Management\php\php-cgi.exe
+- 16:31:31.078 INFO: CGI pattern: **.php$
+- 16:31:31.078 INFO: Hide files patterns: 
+- 16:31:31.078 INFO: CGI environment variables set: TMP=C:\Users\DINA\AppData\Local\Temp\,TEMP=C:\Users\DINA\AppData\Local\Temp\,TMPDIR=C:\Users\DINA\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:31:31.078 INFO: Web server url: http://127.0.0.1:8000/
+- 16:31:31.078 INFO: remote_debugging_port = 60974
+- 16:31:31.094 DEBUG: Command line string for the browser process: "E:\Perso\Revenue_Management\Logika.exe" --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --remote-debugging-port=60974
+[0128/163131.080:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:31.172 DEBUG: App::OnContextInitialized()
+- 16:31:31.172 DEBUG: Window max width/height = 1286/672
+- 16:31:31.188 DEBUG: GetBrowserWindow(): not found, hwnd = 1510122
+- 16:31:31.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:31:31.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:31:31.188 DEBUG: StoreBrowserWindow(): hwnd = 1510122
+- 16:31:31.015 DEBUG: Command line string for the gpu-process process: "E:\Perso\Revenue_Management\Logika.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --service-request-channel-token=812846E3BD838D48FA8475A3D9921A90 --mojo-platform-channel-handle=1900 /prefetch:2
+- 16:31:31.250 DEBUG: ClientHandler::OnAfterCreated()
+- 16:31:31.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:31:31.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:31:31.000 DEBUG: Command line string for the renderer process: "E:\Perso\Revenue_Management\Logika.exe" --type=renderer --no-sandbox --primordial-pipe-token=24C172479574D2E30158C97BA36707B2 --lang=en-US --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=24C172479574D2E30158C97BA36707B2 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0128/163131.289:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:31:31.032 DEBUG: OnBrowserCreated()
+- 16:31:32.360 DEBUG: OnContextCreated()
+- 16:31:33.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/admin/login
+[0128/163136.099:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:38.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/admin/login
+- 16:31:38.672 INFO: POST 302 /admin/action_login_
+- 16:31:38.906 INFO: GET 302 /admin/home
+- 16:31:39.875 DEBUG: OnContextCreated()
+- 16:31:39.219 INFO: GET 200 /receptionmagasin/liste
+- 16:31:39.250 INFO: GET 200 /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+- 16:31:39.266 INFO: GET 200 /assets/vendor/chart.js/chart.min.js
+- 16:31:39.266 INFO: GET 200 /assets/vendor/echarts/echarts.min.js
+[0128/163139.389:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+[0128/163139.401:INFO:CONSOLE(13)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/chart.js/chart.min.js (13)
+- 16:31:39.547 INFO: GET 404 /receptionmagasin/assets/img/logo.png
+[0128/163139.597:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/simple-datatables/simple-datatables.js (8)
+- 16:31:39.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste
+[0128/163139.832:INFO:CONSOLE(311)] "Uncaught ReferenceError: ResizeObserver is not defined", source: http://127.0.0.1:8000/assets/js/main.js (311)
+[0128/163141.117:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:46.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste
+- 16:31:46.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+[0128/163146.136:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:46.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:46.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:47.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:47.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:47.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:47.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:48.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:48.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:49.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:49.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:49.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/receptionmagasin/liste#
+- 16:31:50.063 DEBUG: OnContextCreated()
+- 16:31:50.391 INFO: GET 200 /stat/voir_commission
+[0128/163150.417:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+[0128/163150.431:INFO:CONSOLE(13)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/chart.js/chart.min.js (13)
+[0128/163150.598:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/simple-datatables/simple-datatables.js (8)
+- 16:31:50.688 INFO: GET 404 /stat/assets/img/logo.png
+- 16:31:50.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/stat/voir_commission
+- 16:31:50.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/stat/voir_commission
+[0128/163150.830:INFO:CONSOLE(311)] "Uncaught ReferenceError: ResizeObserver is not defined", source: http://127.0.0.1:8000/assets/js/main.js (311)
+- 16:31:50.672 DEBUG: OnContextCreated()
+- 16:31:50.000 INFO: GET 200 /commission/add
+[0128/163151.002:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+[0128/163151.020:INFO:CONSOLE(13)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/chart.js/chart.min.js (13)
+[0128/163151.046:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/simple-datatables/simple-datatables.js (8)
+[0128/163151.150:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:51.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/commission/add
+- 16:31:51.266 INFO: GET 404 /commission/assets/img/logo.png
+[0128/163151.270:INFO:CONSOLE(311)] "Uncaught ReferenceError: ResizeObserver is not defined", source: http://127.0.0.1:8000/assets/js/main.js (311)
+- 16:31:52.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/commission/add
+- 16:31:52.688 DEBUG: OnContextCreated()
+- 16:31:52.031 INFO: GET 200 /laptop/add
+[0128/163153.046:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+[0128/163153.060:INFO:CONSOLE(13)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/chart.js/chart.min.js (13)
+[0128/163153.085:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/simple-datatables/simple-datatables.js (8)
+- 16:31:53.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/laptop/add
+- 16:31:53.313 INFO: GET 404 /laptop/assets/img/logo.png
+[0128/163153.301:INFO:CONSOLE(311)] "Uncaught ReferenceError: ResizeObserver is not defined", source: http://127.0.0.1:8000/assets/js/main.js (311)
+- 16:31:55.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/laptop/add
+- 16:31:55.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/laptop/add#
+[0128/163156.165:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:31:56.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:56.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:57.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:57.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:57.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:57.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/laptop/add#
+- 16:31:59.781 DEBUG: ClientHandler::OnAfterCreated()
+- 16:31:59.781 DEBUG: GetBrowserWindow(): not found, hwnd = 920258
+- 16:31:59.781 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:31:59.781 DEBUG: StoreBrowserWindow(): hwnd = 920258
+- 16:31:59.797 DEBUG: Centering popup window relative to its parent
+- 16:31:59.797 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:31:59.000 DEBUG: Command line string for the renderer process: "E:\Perso\Revenue_Management\Logika.exe" --type=renderer --no-sandbox --primordial-pipe-token=3FBA17BC80A4706A4C0C8AB503C46B3C --lang=en-US --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3FBA17BC80A4706A4C0C8AB503C46B3C --renderer-client-id=4 --mojo-platform-channel-handle=2936 /prefetch:1
+- 16:31:59.031 DEBUG: OnBrowserCreated()
+- 16:31:59.046 DEBUG: OnContextCreated()
+- 16:31:59.031 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:32:00.266 INFO: GET 200 /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[0128/163201.184:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163206.207:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163211.222:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163216.235:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163221.261:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163226.278:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163231.300:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163236.312:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163241.326:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:32:42.000 DEBUG: OnBeforeClose() hwnd=920258
+- 16:32:42.000 DEBUG: RemoveBrowserWindow(): hwnd = 920258
+- 16:32:42.140 DEBUG: OnBrowserDestroyed()
+[0128/163246.346:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163251.366:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163256.383:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163301.399:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163306.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163311.453:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163316.465:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163321.480:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163326.498:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163331.506:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163336.525:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163341.544:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163346.561:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163351.571:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163356.576:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163401.602:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163406.622:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163411.630:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163416.647:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163421.671:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163426.693:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163431.702:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163436.720:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163441.728:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163446.740:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163451.756:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163456.766:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163501.791:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163506.804:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163511.816:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163516.834:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163521.856:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163526.868:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163531.875:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163536.893:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163541.913:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163546.938:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163551.947:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163556.971:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163601.982:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163607.002:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163612.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163617.032:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163622.050:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163627.058:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163632.071:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163637.089:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163642.101:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163647.116:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163652.127:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163657.145:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163702.176:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163707.205:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163712.222:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163717.235:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163722.249:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163727.269:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163732.284:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163737.300:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163742.322:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163747.336:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163752.347:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163757.373:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163802.390:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163807.405:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163812.429:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163817.446:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163822.457:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163827.476:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163832.487:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163837.509:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163842.530:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163847.546:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163852.551:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163857.567:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163902.593:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163907.604:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163912.622:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163917.648:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163922.665:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163927.679:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163932.698:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163937.713:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163942.743:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163947.761:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163952.779:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/163957.799:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164002.814:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164007.823:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164012.853:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164017.872:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164022.896:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164027.933:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164032.954:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164037.972:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164042.990:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164048.011:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164053.032:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:40:54.469 INFO: GET 500 /stat/benefice?annee=2019
+[0128/164058.040:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:40:58.281 INFO: GET 500 /stat/benefice
+- 16:41:00.828 INFO: GET 500 /commission/add
+[0128/164103.061:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164108.067:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164113.094:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164118.114:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:41:22.281 DEBUG: WM_DESTROY
+- 16:41:22.281 DEBUG: RemoveBrowserWindow(): hwnd = 1510122
+- 16:41:22.297 INFO: Stopping Mongoose web server
+- 16:41:22.297 DEBUG: Mongoose webserver stopped immediately
+- 16:41:22.313 DEBUG: OnBeforeClose() hwnd=658076
+- 16:41:22.313 DEBUG: RemoveBrowserWindow(): hwnd = 658076
+- 16:41:22.313 DEBUG: GetBrowserWindow(): not found, hwnd = 658076
+- 16:41:22.313 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:41:22.313 DEBUG: Calling CefQuitMessageLoop()
+- 16:41:22.000 DEBUG: OnBrowserDestroyed()
+- 16:41:22.360 INFO: Ended application
+- 16:41:22.375 INFO: --------------------------------------------------------
+- 16:41:47.079 INFO: --------------------------------------------------------
+- 16:41:47.079 INFO: Started application
+- 16:41:47.079 INFO: Logging to: E:\Perso\Revenue_Management\debug.log
+- 16:41:47.079 INFO: Log level = DEBUG4
+- 16:41:47.079 INFO: Starting Mongoose 3.9c web server
+- 16:41:47.079 INFO: WWW directory: E:\Perso\Revenue_Management\www\public
+- 16:41:47.079 INFO: Index files: index.php
+- 16:41:47.079 INFO: CGI interpreter: E:\Perso\Revenue_Management\php\php-cgi.exe
+- 16:41:47.079 INFO: CGI pattern: **.php$
+- 16:41:47.079 INFO: Hide files patterns: 
+- 16:41:47.079 INFO: CGI environment variables set: TMP=C:\Users\DINA\AppData\Local\Temp\,TEMP=C:\Users\DINA\AppData\Local\Temp\,TMPDIR=C:\Users\DINA\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:41:47.094 INFO: Web server url: http://127.0.0.1:8000/
+- 16:41:47.094 INFO: remote_debugging_port = 61937
+- 16:41:47.094 DEBUG: Command line string for the browser process: "E:\Perso\Revenue_Management\Logika.exe" --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --remote-debugging-port=61937
+[0128/164147.238:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:41:47.172 DEBUG: App::OnContextInitialized()
+- 16:41:47.188 DEBUG: Window max width/height = 1286/672
+- 16:41:47.188 DEBUG: GetBrowserWindow(): not found, hwnd = 396110
+- 16:41:47.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:41:47.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:41:47.188 DEBUG: StoreBrowserWindow(): hwnd = 396110
+- 16:41:47.000 DEBUG: Command line string for the gpu-process process: "E:\Perso\Revenue_Management\Logika.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --service-request-channel-token=A56641424EA46CCE198E31607AA02313 --mojo-platform-channel-handle=1856 /prefetch:2
+- 16:41:47.250 DEBUG: ClientHandler::OnAfterCreated()
+- 16:41:47.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:41:47.282 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:41:47.000 DEBUG: Command line string for the renderer process: "E:\Perso\Revenue_Management\Logika.exe" --type=renderer --no-sandbox --primordial-pipe-token=BCAD7F1F0ADAD2C8656E815C5AA94476 --lang=en-US --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BCAD7F1F0ADAD2C8656E815C5AA94476 --renderer-client-id=3 --mojo-platform-channel-handle=2292 /prefetch:1
+[0128/164147.433:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:41:47.047 DEBUG: OnBrowserCreated()
+- 16:41:48.437 DEBUG: OnContextCreated()
+- 16:41:48.750 INFO: GET 500 /
+- 16:41:49.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+[0128/164152.257:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164157.274:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164202.286:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164207.323:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164212.356:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164217.397:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164222.411:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:42:25.329 DEBUG: OnBeforeClose() hwnd=1051280
+- 16:42:25.329 DEBUG: RemoveBrowserWindow(): hwnd = 1051280
+- 16:42:25.329 DEBUG: GetBrowserWindow(): not found, hwnd = 1051280
+- 16:42:25.329 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:42:41.094 INFO: --------------------------------------------------------
+- 16:42:41.094 INFO: Started application
+- 16:42:41.094 INFO: Logging to: E:\Perso\Revenue_Management\debug.log
+- 16:42:41.094 INFO: Log level = DEBUG4
+- 16:42:41.094 INFO: Starting Mongoose 3.9c web server
+- 16:42:41.094 INFO: WWW directory: E:\Perso\Revenue_Management\www\public
+- 16:42:41.094 INFO: Index files: index.php
+- 16:42:41.094 INFO: CGI interpreter: E:\Perso\Revenue_Management\php\php-cgi.exe
+- 16:42:41.094 INFO: CGI pattern: **.php$
+- 16:42:41.094 INFO: Hide files patterns: 
+- 16:42:41.094 INFO: CGI environment variables set: TMP=C:\Users\DINA\AppData\Local\Temp\,TEMP=C:\Users\DINA\AppData\Local\Temp\,TMPDIR=C:\Users\DINA\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:42:41.094 INFO: Web server url: http://127.0.0.1:8000/
+- 16:42:41.109 INFO: remote_debugging_port = 64946
+- 16:42:41.109 DEBUG: Command line string for the browser process: "E:\Perso\Revenue_Management\Logika.exe" --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --remote-debugging-port=64946
+[0128/164241.771:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:42:41.203 DEBUG: App::OnContextInitialized()
+- 16:42:41.203 DEBUG: Window max width/height = 1286/672
+- 16:42:41.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1116816
+- 16:42:41.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:42:41.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:42:41.203 DEBUG: StoreBrowserWindow(): hwnd = 1116816
+- 16:42:41.016 DEBUG: Command line string for the gpu-process process: "E:\Perso\Revenue_Management\Logika.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --service-request-channel-token=21647BB0D02D3B14964D0B6919EE8944 --mojo-platform-channel-handle=1852 /prefetch:2
+- 16:42:41.281 DEBUG: ClientHandler::OnAfterCreated()
+- 16:42:41.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:42:41.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:42:41.000 DEBUG: Command line string for the renderer process: "E:\Perso\Revenue_Management\Logika.exe" --type=renderer --no-sandbox --primordial-pipe-token=726B3600E653E84C7A79D752AE90EBB2 --lang=en-US --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=726B3600E653E84C7A79D752AE90EBB2 --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+[0128/164241.957:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:42:41.047 DEBUG: OnBrowserCreated()
+- 16:42:43.656 INFO: GET 302 /
+- 16:42:43.859 INFO: GET 404 /admin/login
+- 16:42:43.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/admin/login
+[0128/164246.786:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164251.794:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164256.807:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164301.817:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164306.836:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164311.868:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164316.880:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:43:16.328 DEBUG: WM_DESTROY
+- 16:43:16.328 DEBUG: RemoveBrowserWindow(): hwnd = 1116816
+- 16:43:16.328 INFO: Stopping Mongoose web server
+- 16:43:16.328 DEBUG: Mongoose webserver stopped immediately
+- 16:43:16.344 DEBUG: OnBeforeClose() hwnd=920210
+- 16:43:16.344 DEBUG: RemoveBrowserWindow(): hwnd = 920210
+- 16:43:16.344 DEBUG: GetBrowserWindow(): not found, hwnd = 920210
+- 16:43:16.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:43:16.359 DEBUG: Calling CefQuitMessageLoop()
+- 16:43:17.422 INFO: Ended application
+- 16:43:17.422 INFO: --------------------------------------------------------
+- 16:43:20.078 INFO: --------------------------------------------------------
+- 16:43:20.078 INFO: Started application
+- 16:43:20.078 INFO: Logging to: E:\Perso\Revenue_Management\debug.log
+- 16:43:20.078 INFO: Log level = DEBUG4
+- 16:43:20.078 INFO: Starting Mongoose 3.9c web server
+- 16:43:20.078 INFO: WWW directory: E:\Perso\Revenue_Management\www\public
+- 16:43:20.078 INFO: Index files: index.php
+- 16:43:20.078 INFO: CGI interpreter: E:\Perso\Revenue_Management\php\php-cgi.exe
+- 16:43:20.078 INFO: CGI pattern: **.php$
+- 16:43:20.078 INFO: Hide files patterns: 
+- 16:43:20.078 INFO: CGI environment variables set: TMP=C:\Users\DINA\AppData\Local\Temp\,TEMP=C:\Users\DINA\AppData\Local\Temp\,TMPDIR=C:\Users\DINA\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:43:20.093 INFO: Web server url: http://127.0.0.1:8000/
+- 16:43:20.093 INFO: remote_debugging_port = 58707
+- 16:43:20.093 DEBUG: Command line string for the browser process: "E:\Perso\Revenue_Management\Logika.exe" --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --remote-debugging-port=58707
+[0128/164320.452:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:43:20.187 DEBUG: App::OnContextInitialized()
+- 16:43:20.187 DEBUG: Window max width/height = 1286/672
+- 16:43:20.187 DEBUG: GetBrowserWindow(): not found, hwnd = 1772342
+- 16:43:20.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:43:20.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:43:20.203 DEBUG: StoreBrowserWindow(): hwnd = 1772342
+- 16:43:20.000 DEBUG: Command line string for the gpu-process process: "E:\Perso\Revenue_Management\Logika.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=31.0.101.2111 --gpu-driver-date=7-19-2022 --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --service-request-channel-token=99799469EA2E73305C520E3674C3D847 --mojo-platform-channel-handle=1856 /prefetch:2
+- 16:43:20.265 DEBUG: ClientHandler::OnAfterCreated()
+- 16:43:20.265 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:43:20.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:43:20.000 DEBUG: Command line string for the renderer process: "E:\Perso\Revenue_Management\Logika.exe" --type=renderer --no-sandbox --primordial-pipe-token=9ECE8D1828F42F632144B47A9CE996F0 --lang=en-US --lang=en-US --log-file="E:\Perso\Revenue_Management\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9ECE8D1828F42F632144B47A9CE996F0 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0128/164320.636:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:43:20.031 DEBUG: OnBrowserCreated()
+- 16:43:21.687 INFO: GET 302 /
+- 16:43:22.906 INFO: GET 200 /admin/login
+- 16:43:22.578 DEBUG: OnContextCreated()
+- 16:43:22.250 INFO: GET 404 /inc/js/settings.js
+- 16:43:22.250 INFO: GET 404 /inc/js/hoverable-collapse.js
+- 16:43:22.250 INFO: GET 404 /inc/js/todolist.js
+- 16:43:22.453 INFO: GET 404 /inc/js/settings.js
+- 16:43:22.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/admin/login
+- 16:43:22.671 INFO: GET 404 /inc/js/todolist.js
+- 16:43:23.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/admin/login
+- 16:43:23.078 DEBUG: OnContextCreated()
+- 16:43:23.406 INFO: POST 500 /admin/action_login_
+- 16:43:24.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/admin/action_login_
+[0128/164325.471:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164330.495:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164335.504:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164340.524:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164345.551:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164350.575:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164355.585:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164400.605:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164405.620:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164410.667:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164415.963:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164420.975:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164425.985:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164431.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164436.040:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164441.048:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164446.073:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164451.086:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164456.104:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164501.114:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164506.151:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164511.163:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164516.195:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164521.227:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164526.242:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164531.276:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164536.298:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164541.338:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164546.370:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164551.405:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164556.416:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164601.429:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164606.484:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164611.526:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164616.549:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164621.586:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164626.624:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164631.654:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164636.687:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164641.701:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164646.725:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164651.742:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164656.753:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164701.761:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164706.788:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164711.805:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164716.822:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164721.834:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164726.851:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164731.878:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164736.908:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164741.931:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164746.952:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164751.993:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164757.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164802.023:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164807.042:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164812.052:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164817.072:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164822.108:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164827.119:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164832.134:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164837.160:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164842.198:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164847.213:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164852.222:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164857.247:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164902.258:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164907.285:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164912.299:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164917.329:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164922.340:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164927.362:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164932.383:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164937.407:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164942.430:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164947.457:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164952.478:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/164957.500:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165002.522:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165007.543:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165012.559:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165017.576:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165022.601:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165027.626:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165032.648:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165037.654:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165042.667:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165047.682:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165052.703:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165057.711:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165102.750:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165107.769:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165112.797:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165117.804:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165122.815:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165127.823:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165132.836:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165137.854:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165142.861:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165147.882:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165152.894:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165157.902:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0128/165202.921:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 16:52:07.343 DEBUG: WM_DESTROY
+- 16:52:07.343 DEBUG: RemoveBrowserWindow(): hwnd = 1772342
+- 16:52:07.343 INFO: Stopping Mongoose web server
+- 16:52:07.343 DEBUG: Mongoose webserver stopped immediately
+- 16:52:07.359 DEBUG: OnBeforeClose() hwnd=1968874
+- 16:52:07.359 DEBUG: RemoveBrowserWindow(): hwnd = 1968874
+- 16:52:07.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1968874
+- 16:52:07.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:52:07.359 DEBUG: Calling CefQuitMessageLoop()
+- 16:52:07.031 DEBUG: OnBrowserDestroyed()
+- 16:52:07.390 INFO: Ended application
+- 16:52:07.390 INFO: --------------------------------------------------------
