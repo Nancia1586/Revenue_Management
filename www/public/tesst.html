@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Incluez ApexCharts.js -->
+</head>
+<script src="apex/libs/apexcharts/dist/apexcharts.min.js"></script>
+<body>
+    <div id="chart"></div>
+    <div style="width: 250px;height: 250px;border-radius: 250px;background-color: aqua;">
+    </div>
+    <script>
+        
+        // fetch('http://127.0.0.1:8000/util/chart')
+        //     .then(response => response.json())
+        //     .then(data => {
+                // console.log(data);
+                // Utilisez les données récupérées pour configurer et mettre à jour le graphique
+                var options = {
+                    chart: {
+                        type: 'bar'
+                    },
+                    series: [
+                        {
+                            name:'d1',
+                            data:[12,4]//data.series
+                        }
+                    ],
+                    xaxis: {
+                        type:'category',
+                        categories:['2301','1231']//data.categories
+                    }
+                };
+
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            // });
+    </script>
+    <script src="apex/libs/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="apex/libs/simplebar/dist/simplebar.js"></script> -->
+   
+</body>
+</html>
