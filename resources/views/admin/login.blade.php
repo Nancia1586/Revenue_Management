@@ -49,7 +49,7 @@
                 </div>
                 <div class="mb-2">
                 </div>
-                 
+
                 <div class="text-center mt-4 font-weight-light">
             <a href="/admin/inscrire" class="btn btn-primary">Inscrire</a>
                 </div>
@@ -61,7 +61,7 @@
                     }}
                     @endif
                    </p>
-                </div> 
+                </div>
               </form>
             </div>
           </div>
